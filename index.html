@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script type="module" src="register.js" defer></script>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="form-container sign-up-container">
+        <form action="#">
+          <!--LOG IN PAGE-->
+          <h1>Log In</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span>Enter your valid email you used to sign up</span>
+          <input type="text" name="name" placeholder="Enter Name" />
+          <input type="email" placeholder="Email" />
+          <input
+            type="password"
+            name="password"
+            placeholder="create Password"
+          />
+
+          <button type="submit">Log In</button>
+        </form>
+      </div>
+
+      <div class="form-container sign-in-container">
+        <form action="#">
+          <!--SIGN UP PAGE-->
+          <h1>Create Account</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <span
+            >Please Enter A Valid Email, Name And Password. Password Must
+            Contain Numbers,Symbols And Letters</span
+          >
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            id="name"
+            required
+          />
+          <input type="email" placeholder="Email" id="email" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="create Password"
+            id="password"
+            required
+          />
+          <button id="submit" type="submit">Sign up</button>
+        </form>
+      </div>
+
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Welcome Back</h1>
+            <p>If you already have an account, log in to stay connected</p>
+            <img
+              src="ov1.png"
+              style="width: 30px; margin-top: 20px; height: 30px"
+              alt
+            />
+            <button class="ghost" id="signin">Log In</button>
+          </div>
+
+          <div class="overlay-panel overlay-right">
+            <h1>New Here?</h1>
+            <p>Sign up to get an account on Wise Brandy</p>
+            <img
+              src="ov2.png"
+              style="width: 30px; margin-top: 20px; height: 30px"
+              alt
+            />
+            <button class="ghost" id="signup">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
