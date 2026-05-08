@@ -1,6 +1,6 @@
-# Wisebrandy Backend
+# SD shop Backend
 
-A Node.js/Express backend for the Wisebrandy login and registration application.
+A Node.js/Express backend for the SD shop login and registration application.
 
 ## Setup
 

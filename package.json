@@ -1,7 +1,7 @@
 {
-  "name": "wisebrandy-backend",
+  "name": "sd-shop-backend",
   "version": "1.0.0",
-  "description": "Backend for Wisebrandy",
+  "description": "Backend for SD shop",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
